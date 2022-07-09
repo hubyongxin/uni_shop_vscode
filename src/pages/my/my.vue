@@ -1,21 +1,22 @@
 <template>
 	<view class="">
-        <indexSwiper></indexSwiper>
+
+		<view>
+			<text class="default_color">{{title}}</text>
+            <br>
+ 
+ 
+		</view>
 	</view>
 </template>
 
 <script>
-import indexSwiper from '../../components/index/indexSwiper.vue'
 	export default {
-        components:{
-            indexSwiper
-        },
 		data() {
 			return {
-				title: 'Hello1'
+				title: '我的'
 			}
 		},
-
 		onLoad() {
 
 		},

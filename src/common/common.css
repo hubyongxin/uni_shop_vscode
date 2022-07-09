@@ -1,0 +1,9 @@
+.default_color{
+    color: red;
+}
+.active_color{
+    color: blueviolet;
+}
+.bg_color{
+    background-color: white;
+}

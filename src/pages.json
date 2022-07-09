@@ -5,6 +5,24 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+        {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+        {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+        {
+			"path": "pages/shopcar/shopcar",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
 		}
 	],
 	"globalStyle": {
@@ -12,5 +30,23 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
-	}
+	},
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页"
+            }, {
+                "pagePath": "pages/shopcar/shopcar",
+                "text": "购物车"
+            },{
+                "pagePath": "pages/my/my",
+                "text": "我的"
+            }
+        ]
+    }
 }

@@ -1,21 +1,20 @@
 <template>
 	<view class="">
-        <indexSwiper></indexSwiper>
+        <Banner></Banner>
 	</view>
 </template>
 
 <script>
-import indexSwiper from '../../components/index/indexSwiper.vue'
+import Banner from '../../components/banner/banner.vue'
 	export default {
         components:{
-            indexSwiper
+            Banner
         },
 		data() {
 			return {
-				title: 'Hello1'
+				title: '购物车'
 			}
 		},
-
 		onLoad() {
 
 		},
