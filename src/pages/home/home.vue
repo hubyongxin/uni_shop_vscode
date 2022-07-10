@@ -2,12 +2,12 @@
 	<view class="">
 
 		<view>
-            <!-- <tabbar></tabbar>
+            <navigation-bar></navigation-bar>
             <indexSwiper></indexSwiper>
             <recommend></recommend>
             <recommend></recommend>
             <card></card>
-            <sahngpinglist></sahngpinglist> -->
+            <sahngpinglist></sahngpinglist>
             <Banner></Banner>
             <Icnos></Icnos>
    
@@ -18,8 +18,8 @@
 </template>
 
 <script>
-    import tabbar from '../../components/tabbar/tabbar.vue'
-    import indexSwiper from '../../components/index/indexSwiper.vue'
+    import navigationBar from '../../components/navigationBar/navigationBar.vue'
+    import indexSwiper from '../../components/swipers/indexSwiper.vue'
     import recommend from '../../components/index/recommend.vue'
     import card from '../../components/common/card.vue'
     import sahngpinglist from '../../components/common/sahngpinglist.vue'
@@ -27,7 +27,7 @@
     import Icnos from '../../components/icnos/Icnos.vue'
 	export default {
         components:{
-            tabbar,indexSwiper,recommend,card,sahngpinglist,Banner,Icnos
+            navigationBar,indexSwiper,recommend,card,sahngpinglist,Banner,Icnos
         },
 		data() {
 			return {

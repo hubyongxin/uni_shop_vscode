@@ -1,18 +1,23 @@
 <template>
 	<view class="">
+        <navigation-bar></navigation-bar>
+        <touch-bar></touch-bar>
         <indexSwiper></indexSwiper>
 	</view>
 </template>
 
 <script>
-import indexSwiper from '../../components/index/indexSwiper.vue'
+import navigationBar from '../../components/navigationBar/navigationBar.vue'
+import touchBar from '../../components/touchBar/touchBar.vue'
+import indexSwiper from '../../components/swipers/indexSwiper.vue'
+
 	export default {
         components:{
-            indexSwiper
+            indexSwiper,navigationBar,touchBar
         },
 		data() {
 			return {
-				title: 'Hello1'
+				
 			}
 		},
 

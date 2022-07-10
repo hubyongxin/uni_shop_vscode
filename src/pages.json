@@ -29,7 +29,8 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+        "navigationStyle": "custom"
 	},
     "tabBar": {
         "color": "#7A7E83",
@@ -38,6 +39,9 @@
         "backgroundColor": "#ffffff",
         "list": [
             {
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },{
                 "pagePath": "pages/home/home",
                 "text": "首页"
             }, {
